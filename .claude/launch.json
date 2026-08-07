@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "eyan-web",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "5959", "--directory", "build/web"],
+      "port": 5959
+    }
+  ]
+}

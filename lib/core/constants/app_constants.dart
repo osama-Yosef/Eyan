@@ -1,0 +1,29 @@
+abstract class AppConstants {
+  static const String appName = 'Eyan';
+  static const String appTagline = 'Your Health Companion';
+  static const String routeSplash = '/';
+  static const String routeLogin = '/login';
+  static const String routeRegister = '/register';
+  static const String routeHome = '/home';
+  static const String routeDoctors = '/doctors';
+  static const String routeAppointments = '/appointments';
+  static const String routeBookAppointment = '/book-appointment';
+  static const String routeMedicalRecords = '/medical-records';
+  static const String routeProfile = '/profile';
+  static const String routePrescriptions = '/prescriptions';
+  static const String routePrescriptionDetail = '/prescriptions/detail';
+  static const double paddingXS = 4.0;
+  static const double paddingSM = 8.0;
+  static const double paddingMD = 16.0;
+  static const double paddingLG = 24.0;
+  static const double paddingXL = 32.0;
+  static const double radiusSM = 8.0;
+  static const double radiusMD = 12.0;
+  static const double radiusLG = 16.0;
+  static const double radiusXL = 24.0;
+  static const double radiusCircle = 100.0;
+  static const Duration animFast = Duration(milliseconds: 200);
+  static const Duration animNormal = Duration(milliseconds: 350);
+  static const Duration animSlow = Duration(milliseconds: 500);
+  static const Duration splashDuration = Duration(seconds: 2);
+}
